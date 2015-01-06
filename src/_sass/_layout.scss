@@ -25,8 +25,15 @@
   background-color: #333;
   font-size: $base-font-size * 0.8;
   color: $text-color-on-dark;
-  padding: $spacing-unit*2 0;
+  padding: $spacing-unit 0;
 }
+.site-pre-footer {
+  background-color: #444;
+  font-size: $base-font-size * 0.8;
+  color: $text-color-on-dark;
+  padding: $spacing-unit 0;
+}
+
 
 .post-header {
   margin-top: $spacing-unit;
