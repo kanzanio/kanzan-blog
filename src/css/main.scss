@@ -6,14 +6,15 @@
 
 // Variables
 $base-font-family: "Open Sans", sans-serif;
-$base-font-size:   15px;
+$base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.4;
+$base-line-height: 1.5;
 
-$spacing-unit:     30px;
+$spacing-unit:     32px;
 
 $text-color:       #6c7579;
 $text-color-light: lighten($text-color, 20%);
+$text-color-on-dark: lighten($text-color, 20%);
 $brand-color: #c5202f;
 $brand-color-light: lighten($brand-color, 40%);
 

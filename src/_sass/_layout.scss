@@ -23,8 +23,9 @@
 
 .site-footer {
   background-color: #333;
-  color: #fff;
-  padding: 2em 0;
+  font-size: $base-font-size * 0.8;
+  color: $text-color-on-dark;
+  padding: $spacing-unit*2 0;
 }
 
 .post-header {
@@ -51,11 +52,6 @@
 
 
 @media all and (min-width: 500px) {
-  
-  body {
-    font-size: $base-font-size * 1.1 ;
-    line-height: $base-line-height  * 1.1;
-  }
 
   .container {
     width: 400px;

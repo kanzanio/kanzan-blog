@@ -1,14 +1,21 @@
 ---
 layout: default
+pageclass: home
 ---
 
 <ul class="post-list">
   {% for post in site.posts %}
     <li>
       <h2>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h2>
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <p class="post-meta">Posted on {{ post.date | date: "%b %-d, %Y" }}
+	    	{% if post.author == "phil" %} by <a href="https://twitter.com/philhawksworth">Phil Hawksworth</a>
+	    	{% else if post.author == "alfredo" %} by <a href="https://twitter.com/a_alfredo">Alfredo Aguirre</a>
+	    	{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
+      <div class="grab">
+        {{ post.excerpt }}
+      </div>
     </li>
   {% endfor %}
 </ul>

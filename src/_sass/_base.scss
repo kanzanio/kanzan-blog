@@ -92,7 +92,40 @@ a:focus {
   margin-bottom: $spacing-unit;
 }
 
+.post-list {
+  
+  list-style: none;
 
+  li {
+    margin-bottom: $spacing-unit;
+  }
+
+  .post-meta {
+    margin-bottom: $spacing-unit / 2;  
+  }
+
+}
+
+.site-footer {
+  
+  a {
+
+      text-decoration: none;
+      border-style: none;
+      color: #fff;
+
+      &:link,
+      &:visited {
+        color: #fff;
+      }
+    
+      &:hover,
+      &:focus {
+        color: $brand-color;
+      }
+  }
+
+}
 
 
 /**
@@ -231,10 +264,5 @@ ul, ol, dl, figure {
 //         padding-left: 0;
 //     }
 // }
-
-
-
-
-
 
 
