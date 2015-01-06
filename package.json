@@ -1,0 +1,10 @@
+{
+  "name": "blogkanzan.io",
+  "version": "0.0.1",
+  "description": "The Kanzan Blog",
+  "author": "Weave",
+  "scripts": {
+    "build": "jekyll build",
+    "deploy": "(cd .. && git subtree push --prefix www origin gh-pages)"
+  }
+}
