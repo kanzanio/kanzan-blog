@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Your awesome title</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://blog.kanzan.io	/</link>
+    <atom:link href="http://blog.kanzan.io	/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 06 Jan 2015 16:14:11 +0000</pubDate>
+    <lastBuildDate>Tue, 06 Jan 2015 16:14:11 +0000</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Please, not another CMS!</title>
+        <description>&lt;p&gt;Big news. We’re making a new thing! We’re excited because it is an idea which has been lingering for a little over two years and we’re finally making it real. And we’re excited because even after two years it is something we believe that we still need but can’t find in existence already.&lt;/p&gt;
+
+&lt;p&gt;It’s called &lt;a href=&quot;http://kanzan.io&quot;&gt;Kanzan&lt;/a&gt; but the thing is… well it’s a CMS.&lt;/p&gt;
+
+&lt;p&gt;We know. There are more than a few content management systems out there already, but none seem to quite scratch the itch that we, and many of our friends and colleagues, have been trying in vain to reach for some time. &lt;/p&gt;
+
+&lt;p&gt;Labeling Kanzan a CMS might be a bit too grand. It might be claiming too much. Kanzan will indeed enable content authors to write and publish to the web without development expertise, but it won’t have many of the other bells or whistles that you might expect from a CMS. It will be intentionally simple.&lt;/p&gt;
+
+&lt;h2&gt;Why Bother?&lt;/h2&gt;
+
+&lt;p&gt;So you might ask, “why bother making yet another CMS?” especially if it won’t even have half of the functionality that other bigger and brighter CMS already have.  The answer is that Kanzan will be a CMS that does not require you to have any server-side processing infrastructure at all. It will be a tool to give you a simple CMS which we’ll host for you, and which will output a static site that you can host pretty much anywhere.&lt;/p&gt;
+
+&lt;h2&gt;Unlocking the potential of static sites&lt;/h2&gt;
+
+&lt;p&gt;We have seen huge benefits and potential in static sites. The recent explosion in &lt;a href=&quot;https://www.staticgen.com/&quot;&gt;generators&lt;/a&gt; and hosting for these kinds of sites shows that others are seeing the potential too. But occasionally a static site will almost, but not quite give you what you need. If only you could make it easy for non-developers to update the content on those sites. If only you could do that without sacrificing the cheap (or free) static hosting, or your well optimized front end code. &lt;/p&gt;
+
+&lt;p&gt;Kanzan will aim to satisfy that need. It will let you develop your static sites just as before, but then, via  HTML5 data attributes in your pages, it will let you declare areas of content which you’d like to become content manageable. It will host a CMS just for you which will let content authors update just those areas of content. It will publish the outcome of those changes as a static site to your static hosting service. And it will clean up after itself so that only your pristine HTML is exposed. No &lt;a href=&quot;http://hawksworx.com/blog/i-can-smell-your-cms-a-talk-at-fronteers/&quot;&gt;code smells&lt;/a&gt; or horrible hangovers will ever get through.&lt;/p&gt;
+
+&lt;h2&gt;Performance matters&lt;/h2&gt;
+
+&lt;p&gt;We want to protect your markup and design. We want to protect the work you do in optimizing your front-end code and performance. We think that it matters.&lt;/p&gt;
+
+&lt;p&gt;You can follow along with the progress here on this blog and on twitter, and you can request early access to the project beta coming soon via kanzan.io&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 05 Jan 2015 00:01:42 +0000</pubDate>
+        <link>http://blog.kanzan.io	/please-not-another-cms</link>
+        <guid isPermaLink="true">http://blog.kanzan.io	/please-not-another-cms</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

@@ -12,6 +12,8 @@ github_username:  jekyll
 permalink: /:title
 
 # Build settings
+source: src
+destination: www
 markdown: kramdown
 sass: 
   style: :compressed
